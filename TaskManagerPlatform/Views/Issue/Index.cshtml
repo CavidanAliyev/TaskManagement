@@ -1,0 +1,65 @@
+﻿@model IList<TaskManagerPlatform.Domain.Issues.Issue>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<section id="main-content">
+    <section id="wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-4">
+                                <h3>Issues</h3>
+                            </div>
+                            <div class="col-md-6 col-md-offset-4">
+                                <a style="float:right" class="btn btn-primary" asp-area="" asp-controller="Issue" asp-action="Create">
+                                    <b>Create</b>
+                                </a>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="panel-body">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Description</th>
+                                    <th>Deadline</th>
+                                    <th>Status</th>
+                                    <th>Assignable employee</th>  
+                                    <th></th>  
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{ int i = 1;}
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@i</td>
+                                        <td>@item.Title</td>
+                                        <td>@item.Description</td>
+                                        <td>@item.Deadline</td>
+                                        <td>@item.Status</td>
+                                        <td>@item.AssignableUsers</td>
+                                        <td>
+                                            <a class="btn btn-primary" asp-controller="Issue" asp-action="Edit" asp-route-ID="@item.Id">
+                                                Edit
+                                            </a>
+                                            <a class="btn btn-danger" asp-controller="Issue" asp-action="Delete" asp-route-ID="@item.Id">Delete</a>
+                                        </td>
+                                    </tr>
+                                    i++;
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</section>
+

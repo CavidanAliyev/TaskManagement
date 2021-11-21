@@ -1,0 +1,12 @@
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\bin\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.deps.json
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\bin\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.dll
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\bin\Debug\net5.0\ref\TaskManagerPlatform.UnitTests.Application.dll
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\bin\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.pdb
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\obj\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.csproj.AssemblyReference.cache
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\obj\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\obj\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.AssemblyInfoInputs.cache
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\obj\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.AssemblyInfo.cs
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\obj\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.csproj.CoreCompileInputs.cache
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\obj\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.dll
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\obj\Debug\net5.0\ref\TaskManagerPlatform.UnitTests.Application.dll
+C:\Projects\TaskManagement\TaskManagerPlatform.UnitTests.Application\obj\Debug\net5.0\TaskManagerPlatform.UnitTests.Application.pdb

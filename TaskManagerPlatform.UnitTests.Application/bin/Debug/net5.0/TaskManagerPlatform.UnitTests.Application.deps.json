@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TaskManagerPlatform.UnitTests.Application/1.0.0": {
+        "runtime": {
+          "TaskManagerPlatform.UnitTests.Application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskManagerPlatform.UnitTests.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
